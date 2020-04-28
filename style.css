@@ -1,0 +1,23 @@
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+    color: yellow;
+}
+
+#myButton {
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Arial Black";
+    border: none;
+}
+
+/* To Remove Blue Border */
+button:focus {
+    outline:0;
+}
